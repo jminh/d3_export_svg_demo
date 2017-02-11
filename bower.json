@@ -1,0 +1,15 @@
+{
+  "name": "d3_export_svg_demo",
+  "authors": [
+    "ming"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "d3": "^4.5.0",
+    "file-saver": "^1.3.3"
+  }
+}
