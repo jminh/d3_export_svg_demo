@@ -1,4 +1,14 @@
 
+* D3 save an svg file
+** DEMO
+
+#+BEGIN_SRC sh
+python -m SimpleHTTPServer 8090
+#+END_SRC
+
+visit http://localhost:8090/
+
+** dependency
 
 #+BEGIN_SRC sh
 bower init
@@ -9,15 +19,9 @@ bower install d3 --save
 bower install file-saver --save
 #+END_SRC
 
-* Demo
-
-#+BEGIN_SRC sh
-python -m SimpleHTTPServer 8090
-#+END_SRC
-
-visit http://localhost:8090/
-
 
 ** reference
 
 http://bl.ocks.org/wboykinm/e6e222d71e9b59e8b3053e0c4fe83daf
+
+https://github.com/eligrey/FileSaver.js/
